@@ -8,8 +8,8 @@ const WeatherDisplay = (props) => {
     }
   return (
     <div>
-        <p>Temperature:<span style={a}>{props.weather_data.temperature} </span> </p>
-<p>Conditions:{props.weather_data.conditions} </p>
+        <p>Temperature: <span style={a}>{props.weather_data.temperature}</span> </p>
+<p>Conditions: {props.weather_data.conditions}</p>
     </div>
   )
 }
